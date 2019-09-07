@@ -6,3 +6,5 @@ spring:
       server:
         git:
           uri: https://github.com/Param2050/configserver/tree/master/src/main/resources/config
+          search-paths:
+            - '*service'
