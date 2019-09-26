@@ -8,3 +8,4 @@ spring:
           uri: https://github.com/Param2050/test.git
           search-paths:
             - '*service'
+
