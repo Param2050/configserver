@@ -1,11 +1,9 @@
-server:
-  port: 9091
 spring:
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/Param2050/test.git
+          uri: https://github.com/Param2050/config.git
           search-paths:
-            - '*service'
-
+            - '*nickfury-service'
+            - '*zola-service'
